@@ -1,0 +1,125 @@
+h1,
+h2,
+h3,
+h4,
+p,
+li {
+  font-family: sans serif;
+}
+h1,
+h2,
+h3 {
+  color: rgb(19, 177, 137);
+}
+body {
+  line-height: 1;
+  background-color: rgb(231, 227, 230);
+  position: relative;
+}
+* {
+  border-top: rgb(77, 77, 143);
+}
+h1 {
+  font-size: 26px;
+  text-transform: uppercase;
+  font-style: italic;
+  padding: 20px;
+}
+h1::first-letter {
+  font-style: normal;
+  margin-right: 10px;
+}
+h2 {
+  font-size: 40px;
+  position: relative;
+}
+h2::after {
+  font-size: 20px;
+  content: "top";
+  color: black;
+  background-color: rgb(240, 240, 105);
+  padding: 5px 10px;
+  position: absolute;
+  top: -10px;
+  right: -80px;
+}
+p {
+  font-size: 22px;
+  line-height: 1.5;
+}
+h3 {
+  font-size: 30px;
+}
+h4 {
+  font-size: 24px;
+  text-align: center;
+  text-transform: uppercase;
+}
+li {
+  font-size: 20px;
+}
+#copyright {
+  font-size: 16px;
+}
+#author {
+  font-style: italic;
+  font-size: 18px;
+}
+a:hover {
+  color: rgb(159, 228, 95);
+}
+.related_author {
+  font-size: 18px;
+  font-weight: bold;
+}
+#post {
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: sans serif;
+}
+.vi {
+  list-style: none;
+}
+.main-header {
+  background-color: #f7ecec;
+}
+aside {
+  background-color: #f7ecec;
+  border: 5px solid rgb(82, 82, 196);
+}
+li:first-child {
+  font-weight: bold;
+}
+a:link {
+  color: rgb(56, 140, 219);
+  text-decoration: none;
+  font-size: 20px;
+  padding: 10px;
+}
+nav {
+  text-align: center;
+}
+ol li {
+  margin-bottom: 10px;
+}
+.post {
+  width: 100%;
+
+  height: auto;
+}
+.bod {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+button {
+  font-size: 22px;
+  padding: 20px;
+  position: absolute;
+  bottom: 10px;
+  right: 50px;
+}
+button:hover {
+  background-color: rgb(223, 96, 96);
+}
